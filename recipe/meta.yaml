@@ -1,5 +1,5 @@
 {% set name = "penaltymodel" %}
-{% set version = "1.0.2" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/penaltymodel-{{ version }}.tar.gz
-  sha256: 551e1a04ebf4ae18613cac52e37b6fa8c1959972756705354cdccee66a3ef461
+  sha256: 471592e0756a6ca04c3343cb9c2aa525aaaedc42255201826c8ecdd45f592b1e
 
 build:
   noarch: python
