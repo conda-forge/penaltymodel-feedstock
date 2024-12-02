@@ -17,13 +17,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.9
   run:
-    - dimod >=0.10.9,<0.13.0
-    - homebase >=1.0.1,<2.0.0
-    - networkx >=2.4,<3.0
+    - dimod >=0.10.9
+    - homebase >=1.0.1
+    - networkx >=2.4.0
     - numpy >=1.20.0
-    - python >=3.7
+    - python >=3.9
     - scipy >=1.6.0
 
 test:
